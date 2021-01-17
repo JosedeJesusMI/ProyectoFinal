@@ -2,15 +2,16 @@ import { Component, OnInit } from '@angular/core';
 
 import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { FirebaseServiceService } from './services/firebase-service.service';
+import { FirebaseServiceService } from '.././services/firebase-service.service';
 import { isNullOrUndefined } from 'util';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-ayuda',
+  templateUrl: './ayuda.component.html',
+  styleUrls: ['./ayuda.component.css']
 })
-export class AppComponent implements OnInit {
+export class AyudaComponent implements OnInit {
+
   
   closeResult = '';
 

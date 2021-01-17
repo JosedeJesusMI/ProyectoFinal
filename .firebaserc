@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "carros-8e8f4": {
+      "hosting": {
+        "firebasetutorial": [
+          "carros-8e8f4"
+        ]
+      }
+    }
+  }
+}
